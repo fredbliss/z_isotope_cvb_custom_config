@@ -1,0 +1,38 @@
+{
+  "name": "intelligentspark/z_isotope_cvb_custom_config",
+  "description": "Custom configuration of checkout steps for CVB",
+  "keywords": [
+    "contao",
+    "isotope",
+    "shipping",
+    "zones",
+    "cvb"
+  ],
+  "type": "contao-module",
+  "license": "LGPL-3.0+",
+  "require": {
+    "php": ">=5.3.2",
+    "contao/core": ">=3.3.0,<4.0.0-dev",
+    "contao-community-alliance/composer-plugin": "*",
+    "terminal42/contao-namespace-class-loader":"~1.0",
+    "isotope/isotope-core": "~2.3"
+  },
+  "authors": [
+    {
+      "name": "intelligentspark",
+      "email": "fred.bliss@intelligentspark.com"
+    }
+  ],
+  "autoload": {
+    "psr-0": {
+      "IntelligentSpark\\": [
+        "library/"
+      ]
+    }
+  },
+  "minimum-stability": "dev",
+  "prefer-stable": true,
+  "config": {
+    "preferred-install": "dist"
+  }
+}
